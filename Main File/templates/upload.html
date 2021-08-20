@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+<meta charset=utf-8 />
+
+ <script src="{{ url_for('static', filename='upload.js') }}"></script>
+
+<style>
+  article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+
+		h1   {color: red;}
+
+		h3   {color: green;}
+		
+			div.form
+			{
+    				display: block;
+    				text-align: center;
+			}
+
+			form
+			{
+   				display: inline-block;
+    				margin-left: auto;
+    				margin-right: auto;
+    				text-align: left;
+			}
+</style>
+</head>
+<body>
+<h1 style="font-size:60px;text-align: center;"><u>MEDICINE NAME DETECTOR</u></h1>
+
+<h3 style="font-size:30px;text-align: center;"><u>Hopefully the answer is right :)</u></h3>
+
+<div class="form">
+<form action = "http://127.0.0.1:5000/uploader" method = "POST" 
+ enctype = "multipart/form-data">
+  <input type='file' name = 'file' onchange="readURL(this);" />
+    <img id="blah" src="#" alt="your image" />
+ <input type = "submit"/>
+</form>
+</div>
+
+</body>
+</html>
