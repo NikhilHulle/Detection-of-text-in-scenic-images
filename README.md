@@ -1,10 +1,18 @@
-This was my final year major project where my team and i have employed a method for the text
-extraction from a given picture of medical strip. This method employs pre-processing methods like MSER, edge detection and Stroke
-Width Transform for detecting text regions.Using MSER, potential text regions are identified in the image based on consistency of color
-and contrast. Further ahead, we use edge detection algorithms to identify pixels belonging to an “edge”.These edge pixels are then to be
-used in the stroke width algorithm to detect the strokes in the image and further filter out non-text regions. The remaining text regions
-are then filtered based on their geometric properties and fed as input to Tesseract, a segmentation-free OCR software to extract text from
-the image.
+According to Wikipedia, \Optical Character Recognition or Optical Character
+Reader(OCR) is the conversion of images of typed, handwritten, or
+printed text into machine-encoded text, whether from a scanned document,
+a photo of a document, a scene-photo, or from subtitle text superimposed on
+an image." A typical OCR software operates as a 3 step process. These three
+steps are preprocessing, text recognition, and post-processing. The overall
+performance of the OCR engine depends on the eciency and eectiveness
+of these three steps. This proposed model is able to recognize text from images
+of objects with irregular surfaces (the scope of inputs for this project is
+limited to medicine strips) and then match the input to a more general case
+and then re-route to an external website to display the search results which
+may give more information or details for the provided input. We extend
+the existing open source OCR software Tesseract's functionality to be able
+to identify and provide a more accurate output specically for images with
+uneven characteristics.
 
 Example Input/Output
 
