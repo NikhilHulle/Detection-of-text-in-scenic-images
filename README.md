@@ -7,6 +7,8 @@ are then filtered based on their geometric properties and fed as input to Tesser
 the image.
 
 Example Input/Output
+
+
 ![Screenshot 2021-08-21 000007](https://user-images.githubusercontent.com/41735734/130278172-7f17474c-b782-459c-913f-2ccb7b995e09.png)
 ![Screenshot 2021-08-21 000034](https://user-images.githubusercontent.com/41735734/130278179-6f533b63-600b-4531-8c2b-2646fdf80015.png)
 ![Screenshot 2021-08-21 000056](https://user-images.githubusercontent.com/41735734/130278180-1e841041-cf72-4cea-8826-e858a858a8c9.png)
