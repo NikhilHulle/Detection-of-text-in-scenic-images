@@ -4,14 +4,14 @@ printed text into machine-encoded text, whether from a scanned document,
 a photo of a document, a scene-photo, or from subtitle text superimposed on
 an image." A typical OCR software operates as a 3 step process. These three
 steps are preprocessing, text recognition, and post-processing. The overall
-performance of the OCR engine depends on the eciency and eectiveness
+performance of the OCR engine depends on the effeciency and effectiveness
 of these three steps. This proposed model is able to recognize text from images
 of objects with irregular surfaces (the scope of inputs for this project is
 limited to medicine strips) and then match the input to a more general case
 and then re-route to an external website to display the search results which
 may give more information or details for the provided input. We extend
 the existing open source OCR software Tesseract's functionality to be able
-to identify and provide a more accurate output specically for images with
+to identify and provide a more accurate output specifically for images with
 uneven characteristics.
 
 Example Input/Output
