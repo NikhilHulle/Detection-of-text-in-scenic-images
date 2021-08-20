@@ -1,0 +1,1 @@
+# Detection-of-text-in-scenic-images
